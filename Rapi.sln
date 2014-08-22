@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "server_console", "server\server_console.vcxproj", "{98A09741-08F5-4DB3-A370-68E52E58962B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RApiServer", "server\RApiServer.vcxproj", "{779FF323-3692-41F9-880A-AFF577B156C3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "client_console", "client1\client_console.vcxproj", "{C8CC937F-F4F1-406B-81B4-EA4E0A86DA4E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "guiclient", "client2\guiclient.vcxproj", "{91CAF4F2-7AF2-4F7F-ACC9-DD0D90678825}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98A09741-08F5-4DB3-A370-68E52E58962B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{98A09741-08F5-4DB3-A370-68E52E58962B}.Debug|Win32.Build.0 = Debug|Win32
+		{98A09741-08F5-4DB3-A370-68E52E58962B}.Release|Win32.ActiveCfg = Release|Win32
+		{98A09741-08F5-4DB3-A370-68E52E58962B}.Release|Win32.Build.0 = Release|Win32
+		{779FF323-3692-41F9-880A-AFF577B156C3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{779FF323-3692-41F9-880A-AFF577B156C3}.Debug|Win32.Build.0 = Debug|Win32
+		{779FF323-3692-41F9-880A-AFF577B156C3}.Release|Win32.ActiveCfg = Release|Win32
+		{779FF323-3692-41F9-880A-AFF577B156C3}.Release|Win32.Build.0 = Release|Win32
+		{C8CC937F-F4F1-406B-81B4-EA4E0A86DA4E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C8CC937F-F4F1-406B-81B4-EA4E0A86DA4E}.Debug|Win32.Build.0 = Debug|Win32
+		{C8CC937F-F4F1-406B-81B4-EA4E0A86DA4E}.Release|Win32.ActiveCfg = Release|Win32
+		{C8CC937F-F4F1-406B-81B4-EA4E0A86DA4E}.Release|Win32.Build.0 = Release|Win32
+		{91CAF4F2-7AF2-4F7F-ACC9-DD0D90678825}.Debug|Win32.ActiveCfg = Debug|Win32
+		{91CAF4F2-7AF2-4F7F-ACC9-DD0D90678825}.Debug|Win32.Build.0 = Debug|Win32
+		{91CAF4F2-7AF2-4F7F-ACC9-DD0D90678825}.Release|Win32.ActiveCfg = Release|Win32
+		{91CAF4F2-7AF2-4F7F-ACC9-DD0D90678825}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

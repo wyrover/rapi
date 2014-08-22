@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RApiServer", "RApiServer_71.vcxproj", "{779FF323-3692-41F9-880A-AFF577B156C3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "server_console", "server_console_71.vcxproj", "{98A09741-08F5-4DB3-A370-68E52E58962B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{779FF323-3692-41F9-880A-AFF577B156C3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{779FF323-3692-41F9-880A-AFF577B156C3}.Debug|Win32.Build.0 = Debug|Win32
+		{779FF323-3692-41F9-880A-AFF577B156C3}.Release|Win32.ActiveCfg = Release|Win32
+		{779FF323-3692-41F9-880A-AFF577B156C3}.Release|Win32.Build.0 = Release|Win32
+		{98A09741-08F5-4DB3-A370-68E52E58962B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{98A09741-08F5-4DB3-A370-68E52E58962B}.Debug|Win32.Build.0 = Debug|Win32
+		{98A09741-08F5-4DB3-A370-68E52E58962B}.Release|Win32.ActiveCfg = Release|Win32
+		{98A09741-08F5-4DB3-A370-68E52E58962B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source files">
+      <UniqueIdentifier>{d2127d66-33fb-4add-884d-2efa8ea0fec3}</UniqueIdentifier>
+      <Extensions>*.c;*.cpp</Extensions>
+    </Filter>
+    <Filter Include="header files">
+      <UniqueIdentifier>{4be6b7c5-caae-42df-8190-3aa8879bc746}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="processservercommunication.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rapi_lib\remoteapi.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rapi_lib\remoteapi_server.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_console.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\socks_common.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\string_util.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="processservercommunication.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rapi_lib\remoteapi.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rapi_lib\remoteapi_server.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\socks_common.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\string_util.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
